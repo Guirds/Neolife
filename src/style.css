@@ -24,6 +24,7 @@ header {
   align-items: flex-end;
 
   border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 2%;
 }
 
 a {
