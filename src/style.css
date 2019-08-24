@@ -1,0 +1,306 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr 1fr;
+  grid-template-rows: 20vh 80vh;
+  grid-template-areas: ". header header "
+    ". main aside "
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  border-bottom: 1px solid #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  box-shadow: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-width: 1px;
+
+
+  border-bottom-color: #d3d3d3;
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+input:focus,
+select:focus {
+  border-color: none !important;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.container-pesquisa {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa {
+  padding: 8px;
+  width: 15px;
+  margin: 5px 3px;
+  border-radius: 50%;
+  border: solid 2px #999999;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.font-color {
+  color: #6e6e6e;
+}
+
+.fa:hover {
+  background: #3B5998;
+  color: #fafafa;
+}
+
+
+nav ol {
+  display: flex;
+}
+
+nav li {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 10px 5px 10px;
+  color: #999999;
+}
+
+nav li:first-child {
+  color: #6e6e6e;
+}
+
+nav li:hover {
+  color: #6e6e6e;
+}
+
+header img {
+  margin-bottom: 3px;
+  height: 60px;
+  width: 180px;
+}
+
+main {
+  grid-area: main;
+  display: flex;
+
+  margin-top: 5%;
+}
+
+.container-news {
+  display: flex;
+  margin-bottom: 48px;
+
+  max-width: 680px;
+  width: 100%;
+
+}
+
+article {
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container-post {
+  max-width: 500px;
+  width: 100%;
+
+  margin: 0px 15px 0px 0px;
+}
+
+.topicos {
+  color: #6e6e6e;
+  font-size: 15px;
+}
+
+.topicos i {
+  padding-left: 8px;
+}
+
+.titulo-topicos {
+  text-transform: uppercase;
+}
+
+.titulo-topicos:hover {
+  text-decoration: underline;
+  text-decoration-color: #6e6e6e;
+}
+
+.container-subtitulo {
+  margin-top: 5px;
+}
+
+.subtitulo {
+  letter-spacing: -.42px !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2F2F2F;
+}
+
+.descricao {
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.footer-post {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+.container-info-post {
+  margin-top: 5px;
+}
+
+.info-time {
+  font-size: 13px;
+  color: #6e6e6e;
+  font-weight: 400;
+}
+
+.info-autor {
+  font-size: 12px;
+  color: #2F2F2F;
+  font-weight: 400;
+}
+
+.info-autor a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #fafafa;
+  border: none;
+}
+
+.material-icons {
+  background-color: #fafafa;
+  color: #6e6e6e;
+}
+
+.material-icons:hover {
+  color: #2F2F2F;
+}
+
+.container-img img {
+  width: 100%;
+  height: 100%;
+}
+
+aside {
+  grid-area: aside;
+
+}
+
+.container-popular-news {
+  width: 328px;
+  margin: 3% 6%;
+}
+
+.popular-news {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-popular-news {
+  line-height: 24px !important;
+  font-size: 19px;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+  color: #2F2F2F;
+}
+
+.container-lista {
+  padding-right: 32px;
+  padding-top: 32px;
+  line-height: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid #d3d3d3;
+  width: 100%;
+}
+
+.container-lista li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.container-lista li:last-child {
+  padding-bottom: 20px;
+}
+
+.titulo-lista {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.lista-numeros {
+  font-size: 34px;
+  color: #d3d3d3;
+}
+
+footer ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+footer li {
+  color: #6e6e6e;
+  font-size: 14px;
+  margin-right: 21px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+footer li:hover {
+  text-decoration: underline;
+  text-decoration-color: #6e6e6e;
+}
