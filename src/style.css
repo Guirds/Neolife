@@ -1,9 +1,7 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fafafa;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -11,10 +9,13 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: 1fr 4fr 2fr 1fr;
-  grid-template-rows: 20vh 80vh;
-  grid-template-areas: ". header header "
-    ". main aside "
+  grid-template-columns: minmax(15px, 1fr) 2fr 328px 1fr;
+  grid-template-rows: 100px 2fr 50px;
+  grid-template-areas:
+    ". header header "
+    ". main aside"
+    ". main footer";
+  background-color: #fafafa;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
   align-items: flex-end;
 
   border-bottom: 1px solid #d3d3d3;
-  padding-bottom: 2%;
+  padding-bottom: 10px;
 }
 
 a {
@@ -59,15 +60,19 @@ select:focus {
   box-shadow: none !important;
 }
 
+.fa-search {
+  font-size: 30px;
+}
+
 .container-pesquisa {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.fa {
+.rede-social {
   padding: 8px;
-  width: 15px;
+  width: 32px;
   margin: 5px 3px;
   border-radius: 50%;
   border: solid 2px #999999;
@@ -110,17 +115,19 @@ nav li:hover {
   color: #6e6e6e;
 }
 
-header img {
+.logo {
   margin-bottom: 3px;
   height: 60px;
   width: 180px;
+
 }
 
 main {
   grid-area: main;
   display: flex;
 
-  margin-top: 5%;
+  padding-top: 5%;
+  width: 680px;
 }
 
 .container-news {
@@ -168,7 +175,7 @@ article {
   margin-top: 5px;
 }
 
-.subtitulo {
+h2 {
   letter-spacing: -.42px !important;
   font-size: 20px;
   font-weight: 600;
@@ -235,12 +242,11 @@ button {
 
 aside {
   grid-area: aside;
-
-}
-
-.container-popular-news {
   width: 328px;
-  margin: 3% 6%;
+  height: 693px;
+
+  display: flex;
+  align-items: center;
 }
 
 .popular-news {
@@ -254,6 +260,7 @@ aside {
   width: 100%;
   border-bottom: 1px solid #d3d3d3;
   color: #2F2F2F;
+  padding-bottom: 12px;
 }
 
 .container-lista {
@@ -287,6 +294,11 @@ aside {
   color: #d3d3d3;
 }
 
+footer {
+  grid-area: footer;
+  margin-top: 5px;
+}
+
 footer ol {
   display: flex;
   flex-wrap: wrap;
@@ -304,4 +316,45 @@ footer li {
 footer li:hover {
   text-decoration: underline;
   text-decoration-color: #6e6e6e;
+}
+
+@media (max-width: 855px) {
+  body {
+    grid-template-columns: 15px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      ". header ."
+      ". main   ."
+      ". aside  aside"
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    background: #f5f5f5;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  main {
+    margin-top: 24px;
+    width: auto;
+    margin-right: 2%;
+  }
+
+
+  .logo {
+    display: none;
+  }
+
+  .container-pesquisa {
+    display: none;
+  }
+
+  aside {
+    display: initial;
+    width: 98%;
+  }
 }

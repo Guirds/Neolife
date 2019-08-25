@@ -19,17 +19,19 @@
 
   <body>
     <header>
-      <img src="./images/logo.jpeg" alt="logo" />
+      <a href="/src">
+        <img class="logo" src="./images/logo.jpeg" alt="logo" />
+      </a>
       <div class="container-navegacao">
         <div class="container-pesquisa">
-          <div class="pesquisa">
-            <input type="text" placeholder="Buscar..." />
-            <div class="material-icons">
-              search
-            </div>
-          </div>
-          <a href="#" class="fa fa-facebook font-color"></a>
-          <a href="#" class="fa fa-instagram font-color"></a>
+          <form action="" method="get">
+            <input type="search" />
+            <button type="submit">
+              <span class="fa fa-search"></span>
+            </button>
+          </form>
+          <a href="#" class="fa fa-facebook font-color rede-social"></a>
+          <a href="#" class="fa fa-instagram font-color rede-social"></a>
         </div>
 
         <nav>
@@ -55,382 +57,370 @@
     </header>
 
     <main>
-      <div class="container-news">
-        <div class="container-nova-noticia">
-          <!--Inicio Post-->
-          <article class="post">
-            <div class="container-post">
-              <div class="topicos">
-                <a href="" class="titulo-topicos">programming</a>
-                <span>
-                  <i>Suggested topic</i>
-                </span>
-              </div>
-              <div class="info-post">
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="container-subtitulo">
-                    <span class="subtitulo">
-                      8 Timeless Skills to Learn Now in Under 8 Hours to Change
-                      you life Forever
-                    </span>
-                  </div>
-                </a>
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="descricao">
-                    If you ever wondered how websites created navbars or buttons
-                    which “create” content out of nothing, most of the time you
-                    are dealing with…
-                  </div>
-                </a>
-              </div>
-              <div class="footer-post">
-                <div class="container-info">
-                  <div class="info-autor">
-                    <a href="https://medium.com/@leandrotk_" target="_blank"
-                      >TK</a
-                    >
-                    in
-                    <a href="https://medium.com/free-code-camp" target="_blank"
-                      >freeCodeCamp.org</a
-                    >
-                  </div>
-                  <div class="container-info-post">
-                    <span class="info-time">
-                      <time>Sep 30, 2017</time>
-                      <span>&#183;</span>
-                      <span>11 min read</span>
-                    </span>
-                  </div>
+      <div class="container-nova-noticia">
+        <!--Inicio Post-->
+        <article class="post">
+          <div class="container-post">
+            <div class="topicos">
+              <a href="" class="titulo-topicos">programming</a>
+              <span>
+                <i>Suggested topic</i>
+              </span>
+            </div>
+            <div class="info-post">
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="container-subtitulo">
+                  <h2>
+                    8 Timeless Skills to Learn Now in Under 8 Hours to Change
+                    you life Forever
+                  </h2>
                 </div>
-                <div class="buttons">
-                  <button>
-                    <span>
-                      <i class="material-icons">
-                        bookmark_border
-                      </i>
-                    </span>
-                  </button>
-                  <button>
-                    <span> <i class="material-icons"> more_horiz</i></span>
-                  </button>
+              </a>
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="descricao">
+                  If you ever wondered how websites created navbars or buttons
+                  which “create” content out of nothing, most of the time you
+                  are dealing with…
                 </div>
+              </a>
+            </div>
+            <div class="footer-post">
+              <div class="container-info">
+                <div class="info-autor">
+                  <a href="https://medium.com/@leandrotk_" target="_blank"
+                    >TK</a
+                  >
+                  in
+                  <a href="https://medium.com/free-code-camp" target="_blank"
+                    >freeCodeCamp.org</a
+                  >
+                </div>
+                <div class="container-info-post">
+                  <span class="info-time">
+                    <time>Sep 30, 2017</time>
+                    <span>&#183;</span>
+                    <span>11 min read</span>
+                  </span>
+                </div>
+              </div>
+              <div class="buttons">
+                <button>
+                  <span>
+                    <i class="material-icons">
+                      bookmark_border
+                    </i>
+                  </span>
+                </button>
+                <button>
+                  <span> <i class="material-icons"> more_horiz</i></span>
+                </button>
               </div>
             </div>
+          </div>
 
-            <div class="container-img">
-              <a href="">
-                <img
-                  src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
-                  alt=""
-                />
+          <div class="container-img">
+            <a href="">
+              <img
+                src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </article>
+        <article class="post">
+          <div class="container-post">
+            <div class="topicos">
+              <a href="" class="titulo-topicos">programming</a>
+              <span>
+                <i>Suggested topic</i>
+              </span>
+            </div>
+            <div class="info-post">
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="container-subtitulo">
+                  <h2>
+                    8 Timeless Skills to Learn Now in Under 8 Hours to Change
+                    you life Forever
+                  </h2>
+                </div>
+              </a>
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="descricao">
+                  If you ever wondered how websites created navbars or buttons
+                  which “create” content out of nothing, most of the time you
+                  are dealing with…
+                </div>
               </a>
             </div>
-          </article>
-          <article class="post">
-            <div class="container-post">
-              <div class="topicos">
-                <a href="" class="titulo-topicos">programming</a>
-                <span>
-                  <i>Suggested topic</i>
-                </span>
-              </div>
-              <div class="info-post">
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="container-subtitulo">
-                    <span class="subtitulo">
-                      8 Timeless Skills to Learn Now in Under 8 Hours to Change
-                      you life Forever
-                    </span>
-                  </div>
-                </a>
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="descricao">
-                    If you ever wondered how websites created navbars or buttons
-                    which “create” content out of nothing, most of the time you
-                    are dealing with…
-                  </div>
-                </a>
-              </div>
-              <div class="footer-post">
-                <div class="container-info">
-                  <div class="info-autor">
-                    <a href="https://medium.com/@leandrotk_" target="_blank"
-                      >TK</a
-                    >
-                    in
-                    <a href="https://medium.com/free-code-camp" target="_blank"
-                      >freeCodeCamp.org</a
-                    >
-                  </div>
-                  <div class="container-info-post">
-                    <span class="info-time">
-                      <time>Sep 30, 2017</time>
-                      <span>&#183;</span>
-                      <span>11 min read</span>
-                    </span>
-                  </div>
+            <div class="footer-post">
+              <div class="container-info">
+                <div class="info-autor">
+                  <a href="https://medium.com/@leandrotk_" target="_blank"
+                    >TK</a
+                  >
+                  in
+                  <a href="https://medium.com/free-code-camp" target="_blank"
+                    >freeCodeCamp.org</a
+                  >
                 </div>
-                <div class="buttons">
-                  <button>
-                    <span>
-                      <i class="material-icons">
-                        bookmark_border
-                      </i>
-                    </span>
-                  </button>
-                  <button>
-                    <span> <i class="material-icons"> more_horiz</i></span>
-                  </button>
+                <div class="container-info-post">
+                  <span class="info-time">
+                    <time>Sep 30, 2017</time>
+                    <span>&#183;</span>
+                    <span>11 min read</span>
+                  </span>
                 </div>
+              </div>
+              <div class="buttons">
+                <button>
+                  <span>
+                    <i class="material-icons">
+                      bookmark_border
+                    </i>
+                  </span>
+                </button>
+                <button>
+                  <span> <i class="material-icons"> more_horiz</i></span>
+                </button>
               </div>
             </div>
-            <div class="container-img">
-              <a href="">
-                <img
-                  src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
-                  alt=""
-                />
+          </div>
+          <div class="container-img">
+            <a href="">
+              <img
+                src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </article>
+        <article class="post">
+          <div class="container-post">
+            <div class="topicos">
+              <a href="" class="titulo-topicos">programming</a>
+              <span>
+                <i>Suggested topic</i>
+              </span>
+            </div>
+            <div class="info-post">
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="container-subtitulo">
+                  <h2>
+                    8 Timeless Skills to Learn Now in Under 8 Hours to Change
+                    you life Forever
+                  </h2>
+                </div>
+              </a>
+              <a
+                href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
+                target="_blank"
+              >
+                <div class="descricao">
+                  If you ever wondered how websites created navbars or buttons
+                  which “create” content out of nothing, most of the time you
+                  are dealing with…
+                </div>
               </a>
             </div>
-          </article>
-          <article class="post">
-            <div class="container-post">
-              <div class="topicos">
-                <a href="" class="titulo-topicos">programming</a>
-                <span>
-                  <i>Suggested topic</i>
-                </span>
-              </div>
-              <div class="info-post">
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="container-subtitulo">
-                    <span class="subtitulo">
-                      8 Timeless Skills to Learn Now in Under 8 Hours to Change
-                      you life Forever
-                    </span>
-                  </div>
-                </a>
-                <a
-                  href="https://medium.com/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=extreme_main_feed---------0-50----------decb52b64abf----------1566508814000--"
-                  target="_blank"
-                >
-                  <div class="descricao">
-                    If you ever wondered how websites created navbars or buttons
-                    which “create” content out of nothing, most of the time you
-                    are dealing with…
-                  </div>
-                </a>
-              </div>
-              <div class="footer-post">
-                <div class="container-info">
-                  <div class="info-autor">
-                    <a href="https://medium.com/@leandrotk_" target="_blank"
-                      >TK</a
-                    >
-                    in
-                    <a href="https://medium.com/free-code-camp" target="_blank"
-                      >freeCodeCamp.org</a
-                    >
-                  </div>
-                  <div class="container-info-post">
-                    <span class="info-time">
-                      <time>Sep 30, 2017</time>
-                      <span>&#183;</span>
-                      <span>11 min read</span>
-                    </span>
-                  </div>
+            <div class="footer-post">
+              <div class="container-info">
+                <div class="info-autor">
+                  <a href="https://medium.com/@leandrotk_" target="_blank"
+                    >TK</a
+                  >
+                  in
+                  <a href="https://medium.com/free-code-camp" target="_blank"
+                    >freeCodeCamp.org</a
+                  >
                 </div>
-                <div class="buttons">
-                  <button>
-                    <span>
-                      <i class="material-icons">
-                        bookmark_border
-                      </i>
-                    </span>
-                  </button>
-                  <button>
-                    <span> <i class="material-icons"> more_horiz</i></span>
-                  </button>
+                <div class="container-info-post">
+                  <span class="info-time">
+                    <time>Sep 30, 2017</time>
+                    <span>&#183;</span>
+                    <span>11 min read</span>
+                  </span>
                 </div>
               </div>
+              <div class="buttons">
+                <button>
+                  <span>
+                    <i class="material-icons">
+                      bookmark_border
+                    </i>
+                  </span>
+                </button>
+                <button>
+                  <span> <i class="material-icons"> more_horiz</i></span>
+                </button>
+              </div>
             </div>
-            <div class="container-img">
-              <a href="">
-                <img
-                  src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
-                  alt=""
-                />
-              </a>
-            </div>
-          </article>
-          <!--Final Post -->
-        </div>
+          </div>
+          <div class="container-img">
+            <a href="">
+              <img
+                src="https://cdn-images-1.medium.com/fit/c/152/156/1*ueWmI48uuShON-hX7LwI0w.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </article>
+        <!--Final Post -->
       </div>
     </main>
 
     <aside>
-      <div class="container-popular-news">
-        <div class="popular-news">
-          <div class="titulo-popular-news">
-            <a href="https://medium.com/topic/popular" target="_blank">
-              <h3>Popular on Medium</h3>
-            </a>
-          </div>
-          <ol class="container-lista">
-            <li>
-              <div class="lista-numeros">01</div>
-              <div class="titulo-lista">
-                <a href="">
-                  What are the Happiest Jobs in Tech?
-                </a>
-                <div class="footer-post">
-                  <div class="container-info">
-                    <div class="info-autor">
-                      <a href="https://medium.com/@leandrotk_" target="_blank"
-                        >TK</a
-                      >
-                      in
-                      <a
-                        href="https://medium.com/free-code-camp"
-                        target="_blank"
-                        >freeCodeCamp.org</a
-                      >
-                    </div>
-                    <div class="container-info-post-aside">
-                      <span class="info-time">
-                        <time>Sep 30, 2017</time>
-                        <span>&#183;</span>
-                        <span>11 min read</span>
-                        <span>&#9733;</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="lista-numeros">02</div>
-              <div class="titulo-lista">
-                <a href="">
-                  What are the Happiest Jobs in Tech?
-                </a>
-                <div class="footer-post">
-                  <div class="container-info">
-                    <div class="info-autor">
-                      <a href="https://medium.com/@leandrotk_" target="_blank"
-                        >TK</a
-                      >
-                      in
-                      <a
-                        href="https://medium.com/free-code-camp"
-                        target="_blank"
-                        >freeCodeCamp.org</a
-                      >
-                    </div>
-                    <div class="container-info-post-aside">
-                      <span class="info-time">
-                        <time>Sep 30, 2017</time>
-                        <span>&#183;</span>
-                        <span>11 min read</span>
-                        <span>&#9733;</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="lista-numeros">03</div>
-              <div class="titulo-lista">
-                <a href="">
-                  What are the Happiest Jobs in Tech?
-                </a>
-                <div class="footer-post">
-                  <div class="container-info">
-                    <div class="info-autor">
-                      <a href="https://medium.com/@leandrotk_" target="_blank"
-                        >TK</a
-                      >
-                      in
-                      <a
-                        href="https://medium.com/free-code-camp"
-                        target="_blank"
-                        >freeCodeCamp.org</a
-                      >
-                    </div>
-                    <div class="container-info-post-aside">
-                      <span class="info-time">
-                        <time>Sep 30, 2017</time>
-                        <span>&#183;</span>
-                        <span>11 min read</span>
-                        <span>&#9733;</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="lista-numeros">04</div>
-              <div class="titulo-lista">
-                <a href="">
-                  What are the Happiest Jobs in Tech?
-                </a>
-                <div class="footer-post">
-                  <div class="container-info">
-                    <div class="info-autor">
-                      <a href="https://medium.com/@leandrotk_" target="_blank"
-                        >TK</a
-                      >
-                      in
-                      <a
-                        href="https://medium.com/free-code-camp"
-                        target="_blank"
-                        >freeCodeCamp.org</a
-                      >
-                    </div>
-                    <div class="container-info-post-aside">
-                      <span class="info-time">
-                        <time>Sep 30, 2017</time>
-                        <span>&#183;</span>
-                        <span>11 min read</span>
-                        <span>&#9733;</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ol>
-
-          <footer>
-            <ol>
-              <li><a href=""> Help </a></li>
-              <li><a href=""> Status</a></li>
-              <li><a href="">Writers</a></li>
-              <li><a href=""> Blog </a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">Privacy</a></li>
-              <li><a href=""> Terms</a></li>
-              <li><a href=""> About</a></li>
-            </ol>
-          </footer>
+      <div class="popular-news">
+        <div class="titulo-popular-news">
+          <a href="https://medium.com/topic/popular" target="_blank">
+            <h3>Popular on Medium</h3>
+          </a>
         </div>
+        <ol class="container-lista">
+          <li>
+            <div class="lista-numeros">01</div>
+            <div class="titulo-lista">
+              <a href="">
+                What are the Happiest Jobs in Tech?
+              </a>
+              <div class="footer-post">
+                <div class="container-info">
+                  <div class="info-autor">
+                    <a href="https://medium.com/@leandrotk_" target="_blank"
+                      >TK</a
+                    >
+                    in
+                    <a href="https://medium.com/free-code-camp" target="_blank"
+                      >freeCodeCamp.org</a
+                    >
+                  </div>
+                  <div class="container-info-post-aside">
+                    <span class="info-time">
+                      <time>Sep 30, 2017</time>
+                      <span>&#183;</span>
+                      <span>11 min read</span>
+                      <span>&#9733;</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lista-numeros">02</div>
+            <div class="titulo-lista">
+              <a href="">
+                What are the Happiest Jobs in Tech?
+              </a>
+              <div class="footer-post">
+                <div class="container-info">
+                  <div class="info-autor">
+                    <a href="https://medium.com/@leandrotk_" target="_blank"
+                      >TK</a
+                    >
+                    in
+                    <a href="https://medium.com/free-code-camp" target="_blank"
+                      >freeCodeCamp.org</a
+                    >
+                  </div>
+                  <div class="container-info-post-aside">
+                    <span class="info-time">
+                      <time>Sep 30, 2017</time>
+                      <span>&#183;</span>
+                      <span>11 min read</span>
+                      <span>&#9733;</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lista-numeros">03</div>
+            <div class="titulo-lista">
+              <a href="">
+                What are the Happiest Jobs in Tech?
+              </a>
+              <div class="footer-post">
+                <div class="container-info">
+                  <div class="info-autor">
+                    <a href="https://medium.com/@leandrotk_" target="_blank"
+                      >TK</a
+                    >
+                    in
+                    <a href="https://medium.com/free-code-camp" target="_blank"
+                      >freeCodeCamp.org</a
+                    >
+                  </div>
+                  <div class="container-info-post-aside">
+                    <span class="info-time">
+                      <time>Sep 30, 2017</time>
+                      <span>&#183;</span>
+                      <span>11 min read</span>
+                      <span>&#9733;</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lista-numeros">04</div>
+            <div class="titulo-lista">
+              <a href="">
+                What are the Happiest Jobs in Tech?
+              </a>
+              <div class="footer-post">
+                <div class="container-info">
+                  <div class="info-autor">
+                    <a href="https://medium.com/@leandrotk_" target="_blank"
+                      >TK</a
+                    >
+                    in
+                    <a href="https://medium.com/free-code-camp" target="_blank"
+                      >freeCodeCamp.org</a
+                    >
+                  </div>
+                  <div class="container-info-post-aside">
+                    <span class="info-time">
+                      <time>Sep 30, 2017</time>
+                      <span>&#183;</span>
+                      <span>11 min read</span>
+                      <span>&#9733;</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <footer>
+          <ol>
+            <li><a href=""> Help </a></li>
+            <li><a href=""> Status</a></li>
+            <li><a href="">Writers</a></li>
+            <li><a href=""> Blog </a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href=""> Terms</a></li>
+            <li><a href=""> About</a></li>
+          </ol>
+        </footer>
       </div>
     </aside>
   </body>
