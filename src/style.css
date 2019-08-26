@@ -39,17 +39,32 @@ ol {
   padding: 0;
 }
 
+form {
+  border-bottom-width: 1px;
+
+
+  border-bottom-color: #d3d3d3;
+  background-color: #fafafa;
+
+}
+
 input {
   box-shadow: none;
   border-left: none;
   border-right: none;
   border-top: none;
   border-bottom-width: 1px;
-
-
   border-bottom-color: #d3d3d3;
-  background-color: #fafafa;
+
+
   font-weight: 600;
+  height: 25px;
+  margin-right: 10px;
+
+  background-color: #fafafa;
+  background: url("./images/24px.svg") no-repeat 198px center;
+
+
 }
 
 input:focus,
