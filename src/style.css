@@ -345,11 +345,6 @@ footer li:hover {
     font-size: 18px
   }
 
-  .container-img img {
-    height: 80px;
-    width: 80px;
-  }
-
   main {
     margin-top: 24px;
     width: auto;
@@ -366,5 +361,10 @@ footer li:hover {
 
   nav li {
     font-size: 8px;
+  }
+
+  .container-img img {
+    height: 70%;
+    width: 100%;
   }
 }
