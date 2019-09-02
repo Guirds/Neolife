@@ -1,0 +1,71 @@
+{
+  //Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+
+  //Configura tamanho e família da fonte
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+
+  //Aplica linhas verticais para lembrar de quebrar em códigos muito grandes
+  "editor.rulers": [80, 120],
+  "prettier.eslintIntegration": true,
+
+  //Aplica um sinal visual na esquerda da linah selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  //Aumenta fonte do terminal
+  "terminal.integrated.fontSize": 14,
+
+  //Define o tema dos ícones no sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "files.watcherExclude": {
+    "/.gitignore": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 0,
+  "sync.gist": "04956295a3fd0d2bbc5a64e6aecacb0f",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "nunjucks": "html"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "nunjucks": "html"
+  },
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
+  "typescript.tsserver.log": "verbose"
+}
