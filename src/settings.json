@@ -36,8 +36,7 @@
   "window.zoomLevel": 0,
   "sync.gist": "04956295a3fd0d2bbc5a64e6aecacb0f",
   "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
+  "eslint.validate": [{
       "language": "javascript",
       "autoFix": true
     },
@@ -69,3 +68,9 @@
 
   "typescript.tsserver.log": "verbose"
 }
+
+/* 
+Color Highlight 
+JavaScript(ES6)
+Beautify
+*/

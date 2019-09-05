@@ -45,7 +45,6 @@ form {
 
   border-bottom-color: #d3d3d3;
   background-color: #fafafa;
-
 }
 
 input {
@@ -351,7 +350,6 @@ footer li:hover {
   }
 
   .logo,
-
   .container-pesquisa {
     display: none;
   }
